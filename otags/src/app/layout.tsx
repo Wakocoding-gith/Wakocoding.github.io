@@ -1,9 +1,32 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const NunitoSans = localFont({
+  src: [
+    {
+      path: "./fonts/NunitoSans_10pt-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/NunitoSans_10pt-medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/NunitoSans_10pt-semiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "./fonts/NunitoSans_10pt-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
 
 export const metadata: Metadata = {
   title: "OTAGS | Ogun State Tenament System",
@@ -13,7 +36,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={NunitoSans.className}>
         <main>{children}</main>
       </body>
     </html>

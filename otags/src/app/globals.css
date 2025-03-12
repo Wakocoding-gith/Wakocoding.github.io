@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+
+@theme {
+  --color-green-primary: #019340;
+  --color-green-medium: #d0ffdf;
+  --color-green-subtle: #f2faf5;
+  --color-background: #fffffe;
+}
+
+@theme inline {
+  --background: var(--color-background);
+  --green-subtle: var(--color-green-subtle);
+  --green-medium: var(--color-green-medium);
+  --green-primary: var(--color-green-primary);
+}
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0;
+  }
+  body {
+    @apply bg-background;
+  }
+}
