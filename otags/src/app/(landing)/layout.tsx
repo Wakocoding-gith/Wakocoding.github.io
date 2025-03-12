@@ -1,9 +1,10 @@
+import Topbar from "@/components/Topbar";
 import React from "react";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <section>
-      {/* Header goes here*/}
+      <Topbar />
       <main>{children}</main>
       {/* Footer goes here*/}
     </section>

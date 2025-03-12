@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @plugin "tailwindcss-animate";
 
-
 @theme {
   --color-green-primary: #019340;
   --color-green-medium: #d0ffdf;
@@ -22,5 +21,25 @@
   }
   body {
     @apply bg-background;
+  }
+}
+
+@layer utilities {
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply w-full max-w-[1440px] h-18 bg-green-primary;
+  }
+
+  .btn-secondary {
+    @apply w-45 h-13 bg-white text-green-primary font-bold outline-green-primary cursor-pointer border-none;
   }
 }
