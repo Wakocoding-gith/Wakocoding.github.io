@@ -7,7 +7,10 @@ import { MdMailOutline } from "react-icons/md";
 
 const Subscribe = () => {
   return (
-    <form action={() => console.log(FormData)} className="mt-6 space-x-4 flex">
+    <form
+      action={() => console.log("Subscribed!")}
+      className="mt-6 space-x-4 flex"
+    >
       <div className="relative">
         <Input
           type="email"

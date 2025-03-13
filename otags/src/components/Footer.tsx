@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-10 flex-center">
+      <div className="flex-center">
         <span className="text-center text-gray-50 font-semibold text-lg">
           All rights reserved@OTAG.com
         </span>
