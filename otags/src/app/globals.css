@@ -35,11 +35,19 @@
 }
 
 @layer components {
+  .wrapper {
+    @apply w-full max-w-[1440px] py-10;
+  }
+
   .navbar {
     @apply w-full max-w-[1440px] h-18 bg-green-primary;
   }
 
   .btn-secondary {
-    @apply w-45 h-13 bg-white text-green-primary font-bold outline-green-primary cursor-pointer border-none;
+    @apply py-2 px-4 rounded-lg border border-green-primary text-green-primary bg-gray-50 text-lg;
+  }
+
+  .btn-primary {
+    @apply bg-green-primary text-white font-bold;
   }
 }

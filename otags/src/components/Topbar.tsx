@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "./ui/button";
 import Nav from "./shared/Nav";
 import Link from "next/link";
 
@@ -17,10 +16,7 @@ const Topbar = () => {
 
       <Nav />
 
-      <Link
-        href="/sign-in"
-        className="py-2 px-4 rounded-lg border border-green-primary text-green-primary bg-gray-50 text-lg flex-center"
-      >
+      <Link href="/sign-in" className="btn-secondary flex-center">
         Login/Signup
       </Link>
     </header>
