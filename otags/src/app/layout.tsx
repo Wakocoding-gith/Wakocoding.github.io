@@ -11,12 +11,12 @@ const NunitoSans = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/NunitoSans_10pt-medium.ttf",
+      path: "./fonts/NunitoSans_10pt-Medium.ttf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "./fonts/NunitoSans_10pt-semiBold.ttf",
+      path: "./fonts/NunitoSans_10pt-SemiBold.ttf",
       weight: "600",
       style: "normal",
     },

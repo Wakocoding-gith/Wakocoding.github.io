@@ -6,6 +6,9 @@
   --color-green-medium: #d0ffdf;
   --color-green-subtle: #f2faf5;
   --color-background: #fffffe;
+
+  --color-border: #d9d9d980;
+  --color-input: #f7f7f7;
 }
 
 @theme inline {
