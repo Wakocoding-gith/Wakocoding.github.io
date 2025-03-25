@@ -115,7 +115,7 @@ const AuthForm = ({ type }: { type: string }) => {
           <div className="w-full border border-gray-300" />
         </div>
 
-        <div className="w-full max-w-[520px] flex-between">
+        <div className="w-full max-w-[520px] flex-between gap-5">
           <Link
             href="#"
             className="flex-center gap-2 w-63 h-8 rounded-xl bg-[#f7f7f7] border border-[#D9D9D980]"
